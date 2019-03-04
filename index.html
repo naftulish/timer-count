@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html dir="ltr">
+
+	<head>
+	
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Ubuntu" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	</head>
+	
+	
+	<body>
+
+		<header></header>
+
+		<section>
+			<div class='wraper'>
+				<div id="myDiv" class="circle"><span>Start</span><br><span class='timer'>00:00:00<span></div>
+			</div>
+
+				<div id='times'>
+
+				<form>
+
+				<select name='project'>
+					<option value='1'>פרוג</option>
+					<option value='2'>גרפציק</option>
+					<option value='3'>סתם</option>
+				</select>
+				
+					<label for='time-1'>start time</label>
+					<input type='datetime-local' id='time-1'>
+
+					<label for='time-2'>end time</label>
+					<input type='datetime-local' id='time-2'>
+
+					<button type='button' id='write'>Write</button><br>
+				</form>
+
+					<p id='result'></p>
+					<p id='result2'></p>
+
+					<div id="table"></div>
+
+				</div>
+		</section>
+		
+		<footer></footer>
+		
+		<script src='script.js'></script>
+		<script src='db.js'></script>
+	</body>
+	
+</html>
